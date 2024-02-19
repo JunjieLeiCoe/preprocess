@@ -2,10 +2,10 @@
 \alias{load_pkg}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+load_pkg
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Load necessary packages for R aca
 }
 \usage{
 load_pkg(x)
