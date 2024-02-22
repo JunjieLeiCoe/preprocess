@@ -4,6 +4,15 @@
 ##               Title : R pkg data preprocessing               ##
 ##################################################################
 
+
+## Showing current repository
+fs_df <- function(){
+  getwd()
+  cat('Current working dir -->', getwd(), '\n')
+  library(fs)
+  fs::dir_tree()
+}
+
 # Package Loading Sequences;
 ## ---------------------------------------------------------------
 load_pkg <- function(){
